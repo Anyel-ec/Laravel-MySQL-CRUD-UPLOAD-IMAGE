@@ -15,7 +15,7 @@
         <input type="text" name="direccion" class="form-control m-2" placeholder="Direccion" required>
         <label for="">Fecha de Nacimiento: </label>
         <input type="date" name="fecha_nac" class="form-control m-2" placeholder="Fecha de Nacimiento">
-        <input type="file" name="foto" id="foto" class="form-control m-2" accept="image/*">
+        <input type="file" name="imagen" id="imagen" class="form-control m-2" accept="image/*">
         <a href="{{ route('alumno.index') }}" class="btn btn-warning">Regresar</a>
         <button class="btn btn-primary" type="submit">Agregar</button>
     </form>

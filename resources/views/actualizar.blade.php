@@ -6,8 +6,6 @@
     <h2>Actualizar registro</h2>
     <form action="{{ route('alumno.update', $alumnos->id) }}" method="post" enctype="multipart/form-data">
         @csrf
-        @method('POST') {{-- Utiliza el método POST --}}
-        @method('PUT') {{-- Utiliza el método PUT para la actualización --}}
         <label for="">Nombre: </label>
         <input type="text" name="nombre" class="form-control m-2"
                value="{{ $alumnos->nombre }}" placeholder="Nombre" required>
@@ -24,12 +22,12 @@
         <input type="date" name="fecha_nac" class="form-control m-2"
                value="{{ $alumnos->fecha_nac }}" placeholder="Fecha de Nacimiento">
         
-        @if ($alumnos->foto)
-            <img src="{{ asset('storage/' . $alumnos->foto) }}" alt="Imagen Actual" class="img-thumbnail m-2" style="max-width: 200px;">
+        @if ($alumnos->imagen)
+            <img src="{{ asset('storage/' . $alumnos->imagen) }}" alt="Imagen Actual" class="img-thumbnail m-2" style="max-width: 200px;">
         @endif
         <br>
-        <label for="foto">Cambiar Foto:</label>
-        <input type="file" name="foto" id="foto" class="form-control m-2" accept="image/*">
+        <label for="imagen">Cambiar Foto:</label>
+        <input type="file" name="imagen" id="imagen" class="form-control m-2" accept="image/*">
 
         <a href="{{ route('alumno.index') }}" class="btn btn-warning">Regresar</a>
         <button class="btn btn-primary" type="submit">Actualizar</button>
