@@ -1,19 +1,19 @@
-### Proyecto CRUD de Alumnos en Laravel
+# Proyecto CRUD de Alumnos en Laravel
 
 Este proyecto en Laravel implementa un sistema básico CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar información de alumnos, incluyendo la posibilidad de almacenar imágenes de perfil.
 
-**Seleccione el Lenguaje:**
+# **Seleccione el Lenguaje:**
 - [Español (Spanish)](README-es.md)
 - [English](README.md)
 
-# Resultados
-## Inicio 
+## Resultados
+### Inicio 
 ![Texto alternativo](docs/inicio.PNG) 
-## Crear 
+### Crear 
 ![Texto alternativo](docs/create.PNG) 
-## Editar 
+### Editar 
 ![Texto alternativo](docs/actualizar.PNG) 
-## Eliminar 
+### Eliminar 
 ![Texto alternativo](docs/eliminar.PNG) 
 
 #### Requisitos del Sistema
@@ -72,9 +72,9 @@ Este proyecto en Laravel implementa un sistema básico CRUD (Crear, Leer, Actual
 
 3. Navega por las diferentes secciones de la aplicación:
 
-   - **Listado de Alumnos:** [http://localhost:8000/alumno](http://localhost:8000/alumno)
-   - **Agregar Nuevo Alumno:** [http://localhost:8000/alumno/create](http://localhost:8000/alumno/create)
-   - **Editar Alumno:** [http://localhost:8000/alumno/{id}/edit](http://localhost:8000/alumno/{id}/edit)
+   - **Listado de Alumnos:** [http://localhost:8000/](http://localhost:8000)
+   - **Agregar Nuevo Alumno:** [http://localhost:8000/create](http://localhost:8000/create)
+   - **Editar Alumno:** [http://localhost:8000/edit/{id}](http://localhost:8000/edit/{id})
 
 #### Almacenamiento de Imágenes
 

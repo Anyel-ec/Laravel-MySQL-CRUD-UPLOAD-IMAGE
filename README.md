@@ -1,4 +1,4 @@
-### Laravel MySQL CRUD with Image Upload
+# Laravel MySQL CRUD with Image Upload
 
 This Laravel project implements a basic CRUD (Create, Read, Update, Delete) system to manage student information, including the ability to upload profile images.
 
@@ -7,14 +7,14 @@ This Laravel project implements a basic CRUD (Create, Read, Update, Delete) syst
 - [Español (Spanish)](README-es.md)
 - [English](README.md)
 
-# Results
-## Home 
+## Results
+### Home 
 ![Alt text](docs/inicio.PNG) 
-## Create 
+### Create 
 ![Alt text](docs/create.PNG) 
-## Edit 
+### Edit 
 ![Alt text](docs/actualizar.PNG) 
-## Delete 
+### Delete 
 ![Alt text](docs/eliminar.PNG) 
 
 # README 
@@ -77,9 +77,9 @@ This Laravel project implements a basic CRUD (Create, Read, Update, Delete) syst
 
 3. Navigate through different sections of the application:
 
-   - **List of Students:** [http://localhost:8000/student](http://localhost:8000/student)
-   - **Add New Student:** [http://localhost:8000/student/create](http://localhost:8000/student/create)
-   - **Edit Student:** [http://localhost:8000/student/{id}/edit](http://localhost:8000/student/{id}/edit)
+   - **List of Students:** [http://localhost:8000/](http://localhost:8000/)
+   - **Add New Student:** [http://localhost:8000/create](http://localhost:8000/create)
+   - **Edit Student:** [http://localhost:8000/edit/{id}](http://localhost:8000/edit/{id})
 
 #### Image Storage
 
